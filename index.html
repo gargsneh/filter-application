@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter product</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="filter-container">
+        <div class="search-container">
+            <input type="text" id="searchinput" class="inputsearch" placeholder="Search Here"/>
+            <button id="search-btn" class="searchbtn"> Search </button>
+        </div>
+        <div class="category-container">
+            <div class="category-btn"
+            data-category="all"> All products</div>
+            <div class="category-btn"
+            data-category="electronics"> Electronics </div>
+            <div class="category-btn"
+            data-category=" clothing"> Clothing </div>
+            <div class="category-btn"
+            data-category="home"> Home and Garden </div>
+        </div>
+    </div>
+    <div id="product-list" class="product-list">
+        <div class="product-items" data-category="electronics">
+            <h3>SmartPhone</h3>
+            <p>Grab up to 40% off on Smartphones at Amazon.in. Explore a wide range of the latest smartphones from top
+                brands. Get free shipping, Cash on delivery ...</p>
+        </div>
+        <div class="product-items" data-category=" clothing">
+            <h3>T-shirt</h3>
+            <p>Men's T-shirts - Buy T-shirts for men online in India. Choose from a wide range of polo, round, V neck &
+                more Men's T-shirts in various designs at...</p>
+
+        </div>
+        <div class="product-items" data-category="home">
+            <h3>plants</h3>
+            <p>
+                Natural Plants - Buy Natural Plant online at.. to keep your home & office environment pleasant.
+                Shop from a wide range of natural plants available at ...
+
+            </p>
+
+        </div>
+        <div class="product-items" data-category=" home and garden">
+            <h3>keychains</h3>
+            <p>You will find key-chains with extremely good looks,bright colours and designs, with very great finish. We offer a variety of cool key-chains dedicated to ...
+
+            </p>
+
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
